@@ -1,0 +1,403 @@
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Playfair Display', serif;
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #010B14;
+}
+
+// Start Nav Style
+.navbar-brand{
+    img {
+        max-height: 45px;
+    }
+}
+
+.navbar-light{
+    .navbar-nav{
+        .nav-link {
+            color: #010B14;
+            font-weight: 300;
+            &.active{
+                color: #010B14 !important;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.btn-navbar-right{
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+    height: 73px;
+    border-radius: 0px;
+}
+
+.btn-login{
+    background-color: #0770CD;
+    color: #fff;
+
+    &:hover{
+    background-color: #1B7DD4;
+    color: #fff;
+    }
+}
+// End Nav Style
+
+// Start Header Style
+header{
+    padding: 180px 0px 150px;
+    margin-top: -73px;
+    background-size: cover;
+    background-image: url('../images/header.png');
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: #fff;
+        font-size: 45px;
+    }
+    p {
+        color: #fff;
+        font-size: 18px;
+    }
+    .btn-started {
+        background-color: #138CF6;
+        color: #fff;
+        width: 150px;
+        &:hover{
+            background-color: #138CF6;
+            color: #fff;
+        }
+    }
+}
+// End Header Style
+
+
+// Start Stats Style
+.section-stats{
+    margin-top: -50px;
+    .stats-detail{
+        padding: 20px;
+        background-color: #fff;
+        padding-left: 65px;
+    }
+    h2{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    p{
+        font-size: 15px;
+        // font-weight: lighter;
+    }
+}
+// End Stats Style
+
+
+// Start Hospital Style
+.section-hospital{
+    min-height: 400px;
+    background-color:#0770CD;
+    margin-top: -64px;
+    margin-bottom: -160px;
+    .section-hospital-heading{
+        margin-top: 120px;
+    }
+    h2,p {
+        color: #fff;
+    }
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+}
+
+.section-hospital-content{
+    .section-hospital-item{
+        .card-hospital{
+            min-height: 380px;
+            background-color: #000;
+            color: white;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+        }
+        .hospital-city {
+            font-size: 15px;
+            color: white;
+        }
+        .hospital-name {
+            font-size: 20px;
+            color: white;
+        }
+        .btn-hospital-detail{
+            border-radius: 2px;
+            background-color: #138CF6;
+            color: white;
+            &:hover{
+                background-color: #1079D6;
+            }
+        }
+    }
+}
+
+
+// End Hospital Style
+
+
+.section-service{
+    min-height: 400px;
+    background-color:#fff;
+    margin-top: 50px;
+    margin-bottom: -260px;
+  .section-service-heading {
+    h2,p {
+        color: #010B14;
+    }
+    h2 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+  }
+}
+
+.section-service-content{
+    .section-service-item{
+        .card-service{
+            min-height: 260px;
+            background-color: #fff;
+            color: #010B14;
+            padding: 30px;
+            background-size: cover;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(185, 185, 185, 0.2), 0 6px 20px 0 rgba(185, 185, 185, 0.2);
+            &:hover{
+                background-color: #1079D6;
+                color: #fff;
+            }
+            .img-service{
+                background-size: cover;
+                max-width: 55px;
+                margin-bottom: 21px;
+            }
+            .service-title{
+                font-size: 21px;
+            }
+            .service-desc{
+                font-size: 18px;
+                // font-weight: lighter;
+            }
+        }
+    }
+}
+
+.section-footer{
+    .img-footer {
+        max-width: 80px;
+        margin-bottom: 40px;
+    }
+    a{
+        color: #010B14;
+    }
+}
+
+
+
+.section-detail-header {
+    min-height: 300px;
+    background-color: #E4E6EB;
+    margin-top: -77px;
+}
+
+.section-detail-content {
+    margin-top: -200px;
+    min-height: 200px;
+    .breadcrumb {
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item {
+        &.active {
+            font-weight: bold;
+        }
+    }
+    .card-checkout {
+        background-color: #fff;
+        border-radius: 4px;
+        padding: 20px;
+        margin: -14px;
+        border: 1px solid #E3E3E3;
+        .member-title {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        .table-checkout {
+            tbody {
+                td {
+                    // font-weight: lighter;
+                    .ic-remove {
+                        font-weight: normal;
+                    }
+                }
+            }
+        }
+    }
+    .card-hospital {
+        background-color: #fff;
+        border-radius: 4px;
+        padding: 20px;
+        margin: -14px;
+        border: 1px solid #E3E3E3;
+        .image-hospital-detail {
+            border-radius: 4px;
+        }
+        .hospital-name{
+            font-size: 26px;
+            color: #010B14;
+        }
+        .hospital-city{
+            font-size: 18;
+            color: #B1B1B1;
+            // font-weight: lighter;
+            margin-bottom: 30px;
+        }
+        .btn-buy-package {
+            border-radius: 2px;
+            margin-top: -15px;
+            margin-bottom: 15px;
+            background-color: #138CF6;
+            color: white;
+            &:hover{
+                background-color: #1079D6;
+            }
+        }
+        .hospital-desc{
+            font-size: 18px;
+            color:#010B14;
+            // font-weight: lighter;
+        }
+    }
+    .section-package-header {
+        h2 {
+            font-size: 20px;
+        }
+    }
+    .section-package-content {
+        margin-top: 30px;
+        .card-package{
+            min-height: 220px;
+            border-radius: 6px;
+            background-color: #000;
+            color: white;
+            background-size: cover;
+            margin-bottom: 20px;
+            .overlay {
+                opacity: 1;
+                background: rgb(0, 0, 0);
+                background: rgba(0, 0, 0, 0.5); /* Black see-through */
+                color: #f1f1f1; 
+                width: 100%;
+                border-radius: 6px;
+                transition: .5s ease;
+                color: white;
+                height: 220px;
+                .package-name {
+                    padding-top: 105px;
+                    padding-left: 20px;
+                    font-size: 18px;
+                }
+                .package-price{
+                    font-size: 15px;
+                    margin-top: 5px;
+                    padding-left: 20px;
+                    // font-weight: lighter;
+                }
+                .btn-package-detail {
+                    border-radius: 2px;
+                    margin-left: 20px;
+                    margin-top: 5px;
+                    background-color: #138CF6;
+                    color: white;
+                    &:hover{
+                        background-color: #1079D6;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.card-payment{
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    margin: -14px;
+    border: 1px solid #E3E3E3;
+    margin-left: 50px;
+}
+
+.trip-information{
+    tr {
+        th{
+            font-weight: 300;
+            font-size: 18px;
+            color: #071C4D;
+        }
+    
+        td{
+            font-weight: 300;
+            font-size: 18px;
+            color: #b1b1b1;
+        }    
+    }
+   
+    .voucher-input {
+        margin-top: 20px !important;
+    }
+}
+
+.join-container {
+    .btn-join-now{
+        background-color: #138CF6;
+        color: white !important;
+        border-radius: 10;
+        &:hover {
+            background-color: #1079D6;
+            color: white !important;
+        }
+    }
+}
+
+.section-success{
+    height: 90vh;
+    h1{
+        font-weight: 600;
+        font-size: 20px;
+        color: #010B14;
+    }
+    p {
+        font-weight: 300;
+        font-size: 16px;
+        color: #b1b1b1;
+    }
+    
+    .btn-homepage{
+        background-color: #138CF6;
+        color: white !important;
+        border-radius: 10;
+        &:hover {
+            background-color: #1079D6;
+            color: white !important;
+        }
+    }
+
+    .img-success {
+        margin-bottom: 40px;
+        width: 130px;
+    }
+}
